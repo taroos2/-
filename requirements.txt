@@ -7,7 +7,6 @@ chardet==3.0.4
 colorama==0.4.1
 colorlog==4.0.2
 discord==0.16.12
-discord.py==0.16.12
 idna==2.8
 multidict==4.5.2
 pycparser==2.19
