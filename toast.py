@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -118,4 +119,5 @@ async def on_message(message):
         await message.channel.send("!clear 노래 재생목록 삭제")
         await message.channel.send("!summon 소환")
 
-client.run("NjMwNDA0Njc3ODI5MjYzMzcw.XZ8vJQ.zs4CTatiCeFQAqbovTlvBz5k8Ac")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
