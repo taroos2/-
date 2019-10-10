@@ -32,14 +32,14 @@ async def on_message(message):
         await client.send_message(message.channel, ("룰루"))
         
     if message.content.startswith("자라"):
-        await message.channel.send("자자")
+        await client.send_message(message.channel, ("자자"))
 
     if message.content.startswith("안자"):
-        await message.channel.send("난 안자")
+        await client.send_message(message.channel, ("난 안자"))
 
 
     if message.content.startswith("그냥"):
-        await message.channel.send("ㅇㅋ...")
+        await client.send_message(message.channel, ("ㅇㅋ..."))
 
     if message.content.startswith("토스트 섹스"):
         await message.channel.send("하읏")
