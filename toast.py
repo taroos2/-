@@ -118,4 +118,4 @@ async def on_message(message):
         await message.channel.send("!clear 노래 재생목록 삭제")
         await message.channel.send("!summon 소환")
 
-client.run("NjMwNDA0Njc3ODI5MjYzMzcw.XZ4cPw.fPUIyguloJRczuXG2QcsfgTFeB0")
+client.run("NjMwNDA0Njc3ODI5MjYzMzcw.XZ8vJQ.zs4CTatiCeFQAqbovTlvBz5k8Ac")
