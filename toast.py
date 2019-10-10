@@ -27,6 +27,9 @@ async def on_message(message):
     if message.content.startswith("스트야"):
         await client.send_message(message.channel, ("왜불러"))
 
+    if message.content.startswith("토스트 잘했어"):
+        await client.send_message(message.channel, ("헤헤"))
+        
     if message.content.startswith("라라라"):
         await client.send_message(message.channel, ("룰루"))
         
