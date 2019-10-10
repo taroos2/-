@@ -6,6 +6,8 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
+    print("login")
+    print(client.user.name)
     print(client.user.id)
     print("ready")
     game = discord.Game("토스트의 채팅봇 작동중")
@@ -26,6 +28,9 @@ async def on_message(message):
     if message.content.startswith("스트야"):
         await message.channel.send("왜불러")
 
+    if message.content.startswith("라라라"):
+        await client.send_message(message.channel, ("룰루"))
+        
     if message.content.startswith("자라"):
         await message.channel.send("자자")
 
